@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d10c9b1c-c07a-4ae3-b824-dfaf5e467199" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.stylelintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AlertToast/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Filter/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Filter/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GridWithPagination/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GridWithPagination/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Loading/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieCard/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchBar/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchBar/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/MovieContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MovieDetailed/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/PageNotFound/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/404.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/detailed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/enums.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/no-image-placeholder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/types.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PVTX5oaGzhJHvXwcLp4QG5xHPH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/quannguyen/vervio/learning/freec-react-omdb-api/src/utils",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "/Users/quannguyen/vervio/learning/react-mui-ts-template/node_modules/stylelint",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/quannguyen/vervio/learning/freec-react-omdb-api/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/utils" />
+      <recent name="$PROJECT_DIR$/src/config" />
+      <recent name="$PROJECT_DIR$/src/components/MovieSearch" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d10c9b1c-c07a-4ae3-b824-dfaf5e467199" name="Changes" comment="" />
+      <created>1683541285989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683541285989</updated>
+      <workItem from="1683541287338" duration="692000" />
+      <workItem from="1683542266825" duration="71343000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+  </component>
+</project>

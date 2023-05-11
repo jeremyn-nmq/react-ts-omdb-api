@@ -1,0 +1,35 @@
+// External imports
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+@import url("https://fonts.googleapis.com/css?family=Monoton");
+
+// Local imports
+@import "reset";
+@import "404";
+@import "home";
+@import "detailed";
+
+// Hide scrollbar
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+// Remove Chrome autofill backgrounds on input
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: white !important;
+}
+
+#root{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  padding: 5vh;
+}
