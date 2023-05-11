@@ -3,7 +3,7 @@ import axios from 'axios';
 import {MovieDetail} from '../utils/types';
 
 interface IMovieContext {
-  movies?: Array<MovieDetail>
+  movies: Array<MovieDetail>
   fetchMovies?: (searchValue: string) => Promise<void>
   filteredMovies?: Array<MovieDetail>
   setFilteredMovies?: Dispatch<SetStateAction<Array<MovieDetail>>>
@@ -27,7 +27,7 @@ const defaultState = {
 
 export const MovieContext = createContext<IMovieContext>(defaultState);
 
-const API_KEY= process.env.OMDB_API_KEY;
+const API_KEY= process.env.REACT_APP_OMDB_API_KEY;
 const URL=`https://www.omdbapi.com/?apikey=${API_KEY}`
 
 interface MovieAppProviderProp {

@@ -4,8 +4,11 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  max-width: unset !important;
 }
 .searchContainer{
   padding-left: 0!important;
   padding-right: 0!important;
+  max-width: unset !important;
+
 }

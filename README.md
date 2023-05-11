@@ -1,5 +1,5 @@
 # React, MUI ,and OMDB Movie Finder
-A simple project with calls the OMDB api to find the movies, show its detail and filter by movie type.
+A simple project with calls the OMDB api to find the movies, show theirs detail and filter by movie type.
 
 ## Core Libraries
 - [React 18.2.0](https://reactjs.org) with `React Scripts 5.0.1`
@@ -26,3 +26,11 @@ A simple project with calls the OMDB api to find the movies, show its detail and
 
 ## Creator
 **Quan M.Nguyen** https://github.com/jeremyn-nmq
+
+### TODOs:
+1. Improve the filter by type. Set the filter list dynamically according to the returned results.
+2. Improve the UI for detail page, displaying more information about the movie.
+3. Refactor and shorten the imports.
+4. Implements the pagination on the movie list.
+5. Use skeleton instead of spinner for Loading component.
+6. Unit tests.

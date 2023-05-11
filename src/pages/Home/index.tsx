@@ -19,11 +19,11 @@ function HomePage() {
   return (
     <>
       <div className='home'>
-        <p className='home-title'> Movie Search App </p>
+        <p className='home-title'>Movie Search</p>
         <SearchBar context={MovieContext}/>
         {isLoading && <Loading/>}
         <AlertToast context={MovieContext}/>
-        {filteredMovies &&
+        {(filteredMovies && movies?.length > 0) &&
           <Filter title='Filter by type' context={MovieContext}
             items={Object.values(EMovieTypes).map(item => ({label: item, value: item}))}/>}
         {filteredMovies && filteredMovies?.length > 0 ? (
@@ -39,7 +39,7 @@ function HomePage() {
         ) : (
           <div className="home-description">
             <Typography variant="subtitle1" component="h2">
-              {!movies?.length ? 'Search for a movie, i.e Interstellar' : 'Please try another filter'}
+              {!movies?.length ? 'Enter a movie title, i.e Interstellar, and press the search icon' : 'No items found. Please try another filter'}
             </Typography>
           </div>
         )}
