@@ -11,7 +11,7 @@ export interface SearchBarProps {
 function SearchBar({ context } : SearchBarProps) {
   const { fetchMovies, searchTerm, setSearchTerm } = useContext(context);
 
-  const handleFormSubmit = (e:any) => {
+  const handleFormSubmit = (e:React.FormEvent) => {
     e.preventDefault()
     searchTerm && searchTerm !== '' && fetchMovies(searchTerm)
   }
